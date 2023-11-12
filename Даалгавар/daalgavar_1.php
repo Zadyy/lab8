@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="text" id="temperature" name="temperature" value="<?php echo $temperature ?>"> <br />
         The temperature is in
         <select id="type" name="type">
-            <option value="fahrenheit" <?php echo ($type == "fahrenheit") ? "selected" : "" ?> >Fahrenheit</option>
-            <option value="Celsius" <?php echo ($type == "Celsius") ? "selected" : "" ?> >Celsius</option>
+            <option value="fahrenheit" <?php echo ($type == "fahrenheit") ? "selected" : "" ?>>Fahrenheit</option>
+            <option value="Celsius" <?php echo ($type == "Celsius") ? "selected" : "" ?>>Celsius</option>
         </select><br />
 
 
